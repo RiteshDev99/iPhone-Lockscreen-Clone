@@ -1,0 +1,101 @@
+body {
+    background-color: pink;
+}
+
+.main-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+
+.box {
+    height: 490px;
+    width: 250px;
+    border: 3px solid black;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+
+img {
+    height: 490px;
+    width: 250px;
+    border-radius: 30px;
+}
+
+.dynamic {
+    height: 13px;
+    width: 55px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.battery {
+    translate: -30px;
+    height: 10px;
+    width: 15px;
+}
+
+
+.dummy {
+    height: 5px;
+    width: 30px;
+}
+
+.status-bar {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    margin: 3px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.datentime {
+    margin-top: 15px;
+    color: rgb(194, 187, 187);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.datentime h1 {
+
+    translate: 0px -35px;
+
+}
+
+.bottom-bar {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    padding: -20px;
+    justify-content: space-between;
+    align-items: center;
+    translate: 0px 460px;
+}
+
+.phone {
+    margin-left: 33px;
+    margin-right: 33px;
+    height: 10px;
+    width: 15px;
+    height: 18px;
+    
+    filter: contrast(50%);
+
+}
+.slide-bar{
+    height: 4PX;
+    width: 80px;
+    background-color: whitesmoke;
+    translate: 0px 14px;
+}
